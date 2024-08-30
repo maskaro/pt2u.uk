@@ -7,16 +7,16 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-colour);
-  color: var(--text-colour);
+  background-color: var(--background-colour) !important;
+  color: var(--text-colour) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: var(--primary-colour);
+  color: var(--primary-colour) !important;
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
 }
 
 h2 {
-  border-bottom: 2px solid var(--primary-colour);
+  border-bottom: 2px solid var(--primary-colour) !important;
   padding-bottom: 10px;
 }
 
@@ -41,8 +41,8 @@ h2 {
 }
 
 footer {
-  background-color: var(--background-colour);
-  color: var(--bs-white);
+  background-color: var(--background-colour) !important;
+  color: var(--bs-white) !important;
 }
 
 .loader {
