@@ -3,114 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT2U</title>
+    <title>PT2U - Home</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-<body class="bg-dark text-white">
-
+<body>
 <div id="loader" class="loader">
     <div class="spinner"></div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container d-flex justify-content-between">
-        <span class="navbar-brand">
-            <img class="border p-1" src="assets/images/logo.jpg" alt="Logo">
-        </span>
-        <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">
-                        About
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">
-                        Services
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!-- Include Header -->
+<div id="header-container"></div>
 
 <section id="about" class="container py-5">
-    <div class="mb-5 text-center">
-        <img src="assets/images/trainer-placeholder.jpg"
-             alt="IMAGE"
-             class="rounded-circle img-fluid trainer-picture mx-auto"
-        />
-    </div>
-    <h2 class="text-warning text-center">
-        About Me
-    </h2>
-    <p class="text-center">
-        Welcome to the world of personalised sports training. With years of experience in guiding
-        athletes to reach their peak performance, I specialise in providing tailored
-        training plans that align with your goals and fitness level.
-    </p>
+    <h2 class="text-warning text-center">About Us</h2>
+    <p>Welcome to PT2U, Cambridgeshire's premier mobile personal training and sports massage service.
+        We bring personalised fitness solutions and expert sports massage therapy directly to your doorstep.
+        Whether you're looking to enhance your athletic performance, recover from an injury, or simply improve
+        your overall well-being, our tailored services are designed to meet your unique needs. With a focus on
+        convenience, quality, and results, we're here to support you in achieving your health and fitness goals,
+        wherever you are.</p>
 </section>
 
-<section id="services" class="container py-5">
-    <h2 class="text-warning text-center">
-        Services
-    </h2>
-    <p class="text-center">
-        I offer a variety of training services including one-on-one coaching, group sessions,
-        and online training plans. Whether you're just starting out or looking to enhance your athletic
-        performance, there's a service that suits your needs.
-    </p>
-    <p class="text-center">
-        <strong>
-            Service Prices:
-        </strong>
-    </p>
-    <ul class="list-unstyled text-center">
-        <li class="mb-2">
-            One-on-One Coaching: £50/hour
-        </li>
-        <li class="mb-2">
-            Group Sessions: £30/person/hour
-        </li>
-        <li class="mb-2">
-            Online Training Plans: £100/month
-        </li>
-    </ul>
+<section id="mission" class="container py-5 bg-light">
+    <h2 class="text-warning text-center">Our Mission</h2>
+    <p>Our mission is to empower individuals to achieve their health and fitness goals by providing personalised,
+        high-quality mobile personal training and sports massage services. We are committed to bringing convenience,
+        expert guidance, and tailored solutions directly to our clients, ensuring they can optimise their physical
+        performance, recover effectively, and lead healthier, more balanced lives.</p>
 </section>
 
-<section id="contact" class="container py-5">
-    <h2 class="text-warning text-center">
-        Contact
-    </h2>
-    <ul class="list-unstyled text-center">
-        <li class="mb-2">
-            Email:
-            <a href="mailto:trainer@example.com?subject=Personal+Training+Inquiry">trainer@example.com</a>
-        </li>
-        <li class="mb-2">
-            Phone:
-            <a href="tel:+441234567890">+44 1234 567890</a>
-        </li>
-    </ul>
-</section>
-
-<footer class="bg-dark text-center text-white py-4">
-    &copy; <span id="year"></span> Razvan Dinita. All rights reserved.
-</footer>
+<!-- Include Footer -->
+<div id="footer-container"></div>
 
 <link rel="stylesheet" href="vendor/bootstrap.min.css">
 <script src="vendor/popper.min.js"></script>
@@ -124,7 +47,7 @@
     }
 
     window.addEventListener('load', () => {
-        hideLoader();
+        setTimeout(hideLoader, 1500);
     });
 </script>
 </body>

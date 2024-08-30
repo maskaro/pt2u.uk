@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT2U - The Team</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+<div id="loader" class="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- Include Header -->
+<div id="header-container"></div>
+
+<section id="team" class="container py-5">
+    <h2 class="text-warning text-center">The Team</h2>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="assets/images/lewis.jpeg" alt="Lewis" class="img-fluid trainer-picture">
+            <h3 class="mt-2">Lewis - Owner & Personal Trainer</h3>
+            <p>
+                With 6 years of experience in the fitness industry, Lewis has successfully
+                guided many individuals through tailored training sessions. Specialising in fat loss and muscle
+                building, his coaching philosophy is rooted in a holistic approach, empowering clients to make
+                lasting, healthy lifestyle changes while ensuring they enjoy the journey to sustainable results.
+            </p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="assets/images/ollie.jpeg" alt="Ollie" class="img-fluid trainer-picture">
+            <h3 class="mt-2">Ollie - Sports Massage Therapist</h3>
+            <p>
+                Ollie has a comprehensive background in sports education, having completed Level 3, Level 4, and
+                Level 5 sports courses at CRC. In addition, he has attained both Level 3 and Level 4 certifications
+                in sports massage therapy.
+            <p>
+            <p>
+                Ollie is passionate about sports massage because it allows him to combine his expertise with a
+                genuine desire to help others. He believes assisting individuals in their recovery and supporting them
+                in achieving their fitness and sporting goals is truly fulfilling, and it is a privilege to contribute
+                to their journey.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Include Footer -->
+<div id="footer-container"></div>
+
+<link rel="stylesheet" href="vendor/bootstrap.min.css">
+<script src="vendor/popper.min.js"></script>
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="assets/scripts/scripts.js"></script>
+
+<script>
+    function hideLoader()
+    {
+        document.body.classList.add('loaded');
+    }
+
+    window.addEventListener('load', () => {
+        setTimeout(hideLoader, 1500);
+    });
+</script>
+</body>
+</html>
