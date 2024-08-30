@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7fd3c77-e31d-4672-9528-4abaf498a09a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7fd3c77-e31d-4672-9528-4abaf498a09a" name="Changes" comment="initial">
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,7 @@
       <recent name="$PROJECT_DIR$/vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../pt2u.uk" />
       <recent name="$PROJECT_DIR$/assets/scripts" />
       <recent name="$PROJECT_DIR$/assets/styles" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -91,8 +92,17 @@
       <updated>1724764865195</updated>
       <workItem from="1724764866245" duration="12062000" />
       <workItem from="1724834760286" duration="1833000" />
-      <workItem from="1725026362260" duration="1790000" />
+      <workItem from="1725026362260" duration="1950000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1725029122775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725029122775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +112,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../pt2u.uk" />
     </ignored-roots>
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

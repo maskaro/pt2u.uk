@@ -1,0 +1,7 @@
+{
+  "name": "pt2u.uk",
+  "version": "1.0.0",
+  "description": "PT2U Personal Training",
+  "main": "index.html",
+  "private": true
+}
