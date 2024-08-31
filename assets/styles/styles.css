@@ -1,21 +1,87 @@
+@font-face {
+  font-family: 'Saira Condensed';
+  src: url('/vendor/fonts/SairaCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/vendor/fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('/vendor/fonts/Oswald-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   font-size: 20px !important;
-  --primary-colour: #ffa000;
-  --text-colour: #333;
-  --background-colour: #f8f9fa;
+  --primary-colour: #f8f9fa;
+  --primary-colour-rgb: 248, 249, 250;
+  --text-colour: #f8f9fa;
+  --background-colour: #000;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   background-color: var(--background-colour) !important;
   color: var(--text-colour) !important;
+  padding-top: 3rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+h2 {
+  border-bottom: 2px solid var(--primary-colour) !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-colour) !important;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 800;
+}
+
+a {
+  color: var(--primary-colour) !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--primary-colour) !important;
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 0.5px solid var(--primary-colour) !important;
+  background-color: var(--background-colour) !important;
+  color: var(--bs-white) !important;
+  font-size: 0.75rem;
+}
+
+.navbar {
+  background-color: var(--background-colour) !important;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.navbar .focus-ring:focus {
+  box-shadow: rgba(var(--primary-colour-rgb), 0.5) 0 0 0 1px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--bs-white) !important;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+}
+
+.navbar .social-icon {
   color: var(--bs-white) !important;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover, .navbar .social-icon:hover {
   color: var(--primary-colour) !important;
 }
 
@@ -23,26 +89,12 @@ body {
   max-width: 150px;
 }
 
-.trainer-picture {
+.staff-picture {
   border-radius: 50%;
   border: 3px solid var(--primary-colour);
   width: 150px;
   height: 150px;
   object-fit: cover;
-}
-
-h2 {
-  border-bottom: 2px solid var(--primary-colour) !important;
-  padding-bottom: 10px;
-}
-
-.bg-light {
-  background-color: var(--background-colour) !important;
-}
-
-footer {
-  background-color: var(--background-colour) !important;
-  color: var(--bs-white) !important;
 }
 
 .loader {
